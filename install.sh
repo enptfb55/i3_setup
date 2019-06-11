@@ -67,7 +67,19 @@ sudo mkdir -p /lib/terminfo/x
 sudo ln -s /usr/local/share/terminfo/x/xterm-termite /lib/terminfo/x/xterm-termite
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/local/bin/termite 60
 
-
 # install conky
 sudo apt install conky
+
+# install font-awesome
+sudo apt install fonts-font-awesome
+
+# install py3status
+sudo apt install py3status
+
+# Optional: install neofetch
+sudo apt install neofetch
+
+# Optional: install cmatrix
+sudo apt install cmatrix
+
 
